@@ -8,9 +8,7 @@ steps:
 - script:
     pip install selenium 
 
-    apt install chromium-chromedriver 
-
-    cp /usr/lib/chromium-browser/chromedriver /usr/bin 
+    npm install chromedriver     
 
   displayName: 'Install selenium'
 
