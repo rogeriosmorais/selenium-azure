@@ -1,5 +1,7 @@
 import sys
 sys.path.insert(0,'/usr/lib/chromium-browser/chromedriver')
+sys.path.insert(0,'/home/vsts/work/node_modules/chromedriver/lib/chromedriver/chromedriver')
+sys.path.insert(0,'/home/vsts/work/node_modules/chromedriver/lib/chromedriver/')
 from selenium import webdriver
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
