@@ -6,8 +6,11 @@ pool:
   
 steps:
 - script:
-  pip install selenium
+    pip install selenium
+
   displayName: 'Install selenium'
-- script:
+
+- script:  
+    python selenium.py
+
   displayName: 'Run tests'
-  python selenium.py
