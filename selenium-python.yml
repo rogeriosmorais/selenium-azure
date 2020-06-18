@@ -13,6 +13,6 @@ steps:
   displayName: 'Install selenium'
 
 - script:  
-    python selenium.py
+    python selenium_tests.py
 
   displayName: 'Run tests'
