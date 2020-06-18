@@ -1,0 +1,13 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+  
+steps:
+- script:
+  pip install selenium
+  displayName: 'Install selenium'
+- script:
+  displayName: 'Run tests'
+  python selenium.py
