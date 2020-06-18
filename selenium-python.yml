@@ -6,9 +6,11 @@ pool:
   
 steps:
 - script:
-    pip install selenium
-    apt install chromium-chromedriver
-    cp /usr/lib/chromium-browser/chromedriver /usr/bin
+    pip install selenium 
+
+    apt install chromium-chromedriver 
+
+    cp /usr/lib/chromium-browser/chromedriver /usr/bin 
 
   displayName: 'Install selenium'
 
